@@ -1,0 +1,8 @@
+{
+  "name": "Todolist-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KimEui-hyeon/Todolist-react.git",
+  "author": "KimEui-hyeon <euihyeon.k@gmail.com>",
+  "license": "MIT"
+}
