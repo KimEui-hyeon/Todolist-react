@@ -1,13 +1,4 @@
 node_modules
 .DS_Store
 dist
-dist/*
 *.log
-logs
-**/*.backup.*
-**/*.back.*
-bower_components
-*.sublime*
-psd
-thumb
-sketch
