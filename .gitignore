@@ -3,13 +3,15 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=react
 
 ### react ###
-.DS_*
+
+node_modules
+.DS_Store
+dist
 *.log
 logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
 bower_components
 
 *.sublime*
