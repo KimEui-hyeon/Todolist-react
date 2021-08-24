@@ -1,9 +1,14 @@
 import React from 'react';
+import './App.scss';
 
 function App() {
+
+
   return(
-    <div>hello world!!</div>
-  )
+    <div className="asd">
+      hello world!!
+    </div>
+  );
 }
 
 export default App;
