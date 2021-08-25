@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Item() {
-  
+function Item({text}) {
   return(
-    <div>adf</div>
+    <li><text>{text}</text></li>
   );
 }
 

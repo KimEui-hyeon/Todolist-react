@@ -4,9 +4,7 @@ import Item from './Item';
 function ItemList({children}) {
   return(
     <ul>
-      <li>
-        <Item/>
-      </li>
+      <Item text='test'/>
     </ul>
   );
 }
