@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import ItemList from './components/ItemList';
 import Template from './components/Template';
 import Title from './components/Title';
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Template>
         <Title/>
+        <ItemList/>
       </Template>
     </div>
   );
