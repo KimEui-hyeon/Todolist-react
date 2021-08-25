@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.scss';
+import Template from './components/Template';
+import Title from './components/Title';
 
 function App() {
 
 
   return(
-    <div className="asd">
-      hello world!!
+    <div>
+      <Template>
+        <Title/>
+      </Template>
     </div>
   );
 }
