@@ -1,10 +1,11 @@
 import React from 'react';
+import './Title.scss'
 
 function Title() {
   
   return (
-    <header>
-      <h1>todo list</h1>
+    <header id='title'>
+      <h1>Todo List</h1>
     </header>
   )
 }
