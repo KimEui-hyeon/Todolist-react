@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CreateItem.scss'
 
 function CreateItem({addItem}) {
 
@@ -21,9 +22,9 @@ function CreateItem({addItem}) {
 
   return (
     <div>
-    <form onSubmit={onCreate}>
-    <input type='text' onChange={changeValue} value={value}></input>
-    <input type='submit' value='추가'></input>
+    <form onSubmit={onCreate} id='itemInput'>
+    <input type='text' onChange={changeValue}
+      value={value}></input>
     </form>
     </div>
   );
